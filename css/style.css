@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Odor+Mean+Chey&family=Oxygen+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #091A28;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5625rem;
+    width: 100%;
+}
+
+main section h1, h2 {
+    text-align: center;
+    font-family:'Odor Mean Chey', serif;
+    font-size: 6rem;
+    color: #FFFFFF;
+}
+
+main section h2 {
+    color: #E70000;
+    font-size: 2.5rem;
+}
+
+header section img {
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.6875rem;
+    background-color: #111827;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    gap: 6.25rem;
+    justify-content: center;
+    padding-top: 0.3125rem;
+}
+
+.social img {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+    height: 1.875rem;
+    width: 100%;
+    background-color: #111827;
+}
+
+.navbar a, ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    gap: 5rem;
+    color: #FFFFFF;
+    font-size: 1.875rem;
+    transition: 0.6s ease;
+}
+
+.navbar ul li a:hover {
+    color: #E70000;
+    transition: 0.3s ease;
+}
+
+.nav-container {
+    background-color: #111827;
+    margin: 0;
+    padding: 0.9375rem;
+}
+
+.navbar-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 1.875rem;
+    width: 100%;
+    background-color: #111827;
+
+}
+
+.navbar-2 a, ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    gap: 5rem;
+    color: #FFFFFF;
+    font-size: 1.875rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111827;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.about section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about section article h1 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    color: #E70000;
+    margin-left: 3.125rem;
+}
+
+.about section article p {
+    text-align: left;
+    font-size: 2.25rem;
+    width: 50%;
+    color: #FFFFFF;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #111827;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.projects section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.projects section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.projects section article h1 {
+    display: flex;
+    align-self: flex-start;
+    color: #E70000;
+    width: 100%;
+    margin-left: 3.10rem;
+}
+
+.projects section article div {
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Oxygen Mono', monospace;
+    color: #FFFFFF;
+    font-size: 0.8125rem;
+    width: 100%;
+}
+
+.projects section article div div {
+    text-align: left;
+    padding: 2.8125rem 6.25rem 2.8125rem 6.25rem;
+}
+
+.projects section article div div p {
+    width: 25%;
+    margin: 0.3125rem;
+}
+
+.projects section article div div figure img {
+    width: 16.4375rem;
+    height: 12.25rem;
+}
+
+.work-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111827;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.work-history h1 {
+    display: flex;
+    align-self: flex-start;
+    color: #E70000;
+    margin-left: 3.125rem;
+}
+
+.work-history article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFFFFF;
+    font-family: 'Nova Mono', monospace;
+    width: 50%;
+}
+
+.work-history article h2 {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    font-family: 'Nova Mono', monospace;
+    text-align: left;
+}
+
+.contact {
+    margin-top: 5rem;
+}
+
+.contact h1 {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 3.125rem;
+    color: #E70000;
+
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: none;
+    color: #FFFFFF;
+    font-family:'Odor Mean Chey', serif;
+    font-size: 0.875rem;
+}
+
+.contact form fieldset label {
+    margin-left: 0.9375rem;
+}
+
+.contact form fieldset input {
+    height: 3.125rem;
+    margin-bottom: 0.9375rem;
+}
+
+.contact form fieldset textarea {
+    height: 18.75rem;
+    margin-bottom: 0.9375rem;
+}
+
+.contact form button {
+    background-color: hsla(0, 0%, 0%, 0.507);
+    border: none;
+    width: 6.5rem;
+    height: 3rem;
+    color: #FFFFFF;
+}
+
+.c-container {
+    margin-bottom: 10rem;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section div {
+    margin: 3.125rem 0;
+    width: 50%;
+    font-size: 1    .25rem;
+    color: #FFFFFF;
+    font-family: 'Nova Mono', monospace;
+
+}
+
+@media (max-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-rows: 5;
+        grid-template-columns: 1;
+    }
+    
+    header {
+        grid-row: 1 / 2;
+    }
+
+    main {
+        grid-row: 2 / 4;
+    }
+
+    .projects section article div {
+        flex-direction: column;
+    }
+
+    footer {
+        grid-row: 4 / 5;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        display: grid;
+        grid-template-rows: 5;
+        grid-template-columns: 1;
+    }
+    
+    header {
+        grid-row: 1 / 2;
+    }
+
+    main {
+        grid-row: 2 / 4;
+    }
+
+    main section h1 {
+        font-size: 4rem;
+    }
+
+    main section h2 {
+        font-size: 2rem;
+    }
+
+    .navbar ul{
+        gap: 1.5625rem;
+    }
+
+    .navbar-2 ul{
+        gap: 1.5625rem;
+    }
+
+    .projects div {
+        flex-direction: column;
+    }
+
+    .projects section article div div p {
+/*         width: 50%%; */
+        margin: 0.3125rem;
+    }
+
+    footer {
+        grid-row: 4 / 5;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        display: grid;
+        grid-template-rows: 6;
+        grid-template-columns: 1;
+    }
+    main section h1 {
+        font-size: 2.2rem;
+    }
+
+    main section h2 {
+        font-size: 1.8rem;
+    }
+
+    header {
+        grid-row: 1 / 3;
+    }
+
+    main {
+        grid-row: 3 / 5;
+    }
+
+    footer {
+        grid-row: 5 / 6;
+    }
+
+    .navbar {
+        margin: 120px 0;
+    }
+
+    .navbar-2 ul {
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+    }
+
+    .section-2 {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .section-2 div {
+        width: 80%;
+    }
+
+    .work-history {
+        margin: 120px 0 0 0;
+    }
+
+    .nav-container {
+        margin-top: 120px;
+    }
+}
