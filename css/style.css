@@ -374,7 +374,7 @@ main section div {
     }
 }
 
-@media (max-width: 565px) {
+@media (max-width: 574px) {
     body {
         display: grid;
         grid-template-rows: 6;
